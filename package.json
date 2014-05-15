@@ -1,0 +1,13 @@
+{
+  "name": "modcraft-server",
+  "description": "Modcraft Server",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x",
+    "coffee-script": "1.7.1",
+		"jade":"*",
+		"stylus":"*",
+		"nib":"*"
+  }
+}
