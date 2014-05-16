@@ -105,7 +105,7 @@ a img {
  */
 body {
   font-family: 'Georgia';
-  background-color: #faf9f0;
+  background-color: #3f8028;
   color: #444;
 }
 header {
@@ -114,9 +114,9 @@ header {
   color: #fff;
   font-size: 64px;
   text-align: center;
-  background-color: #fa5b4d;
-  border-bottom: 1px solid #df1806;
-  text-shadow: 0px -1px 0px #df1806;
+  background-color: #54a735;
+  border-bottom: 1px solid #3b7525;
+  text-shadow: 0px -1px 0px #3b7525;
 }
 .container {
   width: 1000px;
@@ -130,7 +130,7 @@ header {
   color: #fff;
   font-size: 24px;
   margin-top: 20px;
-  background-color: #fa5b4d;
+  background-color: #54a735;
   width: 1000px;
   -webkit-box-shadow: 0px 2px 5px #888;
   box-shadow: 0px 2px 5px #888;
@@ -140,7 +140,7 @@ header {
   font-family: 'Quicksand';
   font-size: 32px;
   display: block;
-  background-color: #fb7c71;
+  background-color: #70c74f;
   padding: 10px;
   margin: 0;
   font-size: 64;
@@ -153,7 +153,7 @@ header {
 }
 .step .content pre {
   display: block;
-  background-color: #fb7c71;
+  background-color: #70c74f;
   font-family: monospace;
   padding: 20px;
   margin: 10px;
