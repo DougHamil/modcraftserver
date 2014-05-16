@@ -12,4 +12,26 @@ block content
 	div.step
 		div.title 1. Setup your Minecraft Forge Development Environment
 		div.content
-			| Follow the tutorial on the <a href="http://www.minecraftforge.net/wiki/Installation/Source">Minecraft Forge Wiki</a> to setup your development environment for Minecraft modding.
+			| To begin, setup your Minecraft Forge development environment by following the directions on the <a href="http://www.minecraftforge.net/wiki/Installation/Source" target="_blank">Minecraft Forge Wiki</a>.
+	div.step
+		div.title 2. Clone HelloWorld Mod
+		div.content
+			| In the directory where you setup your minecraft forge development environment, delete the <b>src</b> directory. In its place,
+			| clone the ModcraftHelloWorld git repository:
+			pre
+				| git clone https://github.com/DougHamil/ModcraftHelloWorld src
+			| This will clone all of the source code for the Modcraft HelloWorld mod into your <b>src</b> directory.
+			| Try running the mod by opening up the workspace in Eclipse and pressing the <b>Run</b> button.
+	div.step
+		div.title 3. Add Your User to the HelloWorld Mod
+		div.content
+			| In Eclipse, open up the <i>HelloWorldMod</i> class in the <i>com.modcraft.helloworld</i> package.
+			| This is the main file for the HelloWorld mod. <br/><br/>
+			| This mod is very simple, it greets players as they login.
+			| If the player is a developer, then it gives them a special greeting.<br/><br/>
+			| Add your Minecraft user as a developer by adding your Minecraft username to the <i>MOD_DEVELOPERS</i> set at the top
+			| of the class.
+	div.step
+		div.title 4. Commit your changes
+		div.content
+			| Using Git, add and commit the change you made.
